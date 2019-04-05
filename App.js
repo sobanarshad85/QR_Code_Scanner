@@ -84,7 +84,7 @@ export default class App extends Component {
     return (
       <View style={{ flex: 1 }}>
         <CameraKitCameraScreen
-          showFrame={false}
+          showFrame={true}
           //Show/hide scan frame
           scanBarcode={true}
           //Can restrict for the QR Code only
